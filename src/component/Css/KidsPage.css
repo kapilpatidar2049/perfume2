@@ -1,0 +1,388 @@
+.banner_kids1  {
+    color: white;
+    width: 100%;
+    height: 900px;
+    /* background-image: url(../../assets/baby.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    position: relative;
+    bottom: 50%;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    top: -71px;
+    z-index: 1;
+}
+.text_kids {
+    position: absolute;
+    margin:0px  50px;
+    top: 40%;   
+}
+.text_kids h1{
+    font-family: "Regular";
+    line-height: 60px;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0px 30px ;
+}
+.text_kids p{
+    font-weight: 300;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin: 0px 30px ;
+    font-weight: 400;
+}
+.her_btn_discover_kids {
+    width: 220px;
+    font-size: 15px;
+    color: white;
+    padding: 10px 20px ;
+    margin: 50px 30px ;
+    border-radius: 50px;
+    font-weight: 500;
+    border: 1px solid white;    
+    background: transparent;
+}
+.her_btn_Create_kids {
+    width: 220px; font-weight: bold;
+    background-color: rgb(207, 193, 61);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 22px ;
+    margin: 10px 20px ;
+    border: none;
+    border-radius: 50px;
+}
+
+.set_kids{
+    margin: 15px 5px;
+    text-align: center;
+    font-size: 19px;
+}
+.set_kids h1{
+    font-weight: 400;
+    font-size: 40px;
+    font-family: "Regular";
+    text-transform: uppercase;
+    line-height: 60px !important;
+    color: #484c62;
+}
+.set_kids p{
+    font-weight: 400;
+    word-spacing: 2px;
+    margin: 15px 40px;
+    padding: 0px 40px;
+    text-transform: capitalize;
+}
+.slick-list {
+    overflow-y: visible;
+}
+.slick-prev:before {
+        content: '←';
+        display: none !important;
+}
+.slick-next:before {
+    content: '→'; display: none !important;
+}
+.slick-slide{
+    border: none !important;
+}
+.slider_cont_kids{
+    margin: 30px -115px;
+    padding: 0px;
+    margin-left: -40px;
+}
+
+.slider-txt_kids img{
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0px -27px;
+    margin-top: 143px;
+}
+.slider-txt_kids{
+    text-align: left;
+}
+.slider-txt_kids h3{ font-family: "Regular";
+    line-height: 35px;
+    width: 230px;
+    text-transform: uppercase;
+    margin: 0px 60px !important;
+}
+.slider-txt_kids p{
+    text-transform: capitalize;
+    margin: 0px 60px !important;
+    width: 230px;
+    font-size: 18px;
+    text-align: left;
+}
+.img_bg_kids {
+    background-repeat: no-repeat;
+    background-position: center;    
+    background-image: url(../../assets/Perfume_B2.png);
+    /* background-color: green; */
+    margin: 10px 5px;
+    height: 701px;
+    /* width: 300px; */
+    margin-top: -150px;
+}
+.img_bg_kids img:hover{
+     transform: translateY(-20px);
+}
+.kids_btn{
+    text-align: right;
+    margin: 0px 70px;
+}
+.see_all_btn {
+    border: none;
+    color: purple;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}
+.insta_feed_kids{
+    width: 100%;
+    min-height: 95vh;
+    /* background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../images/girl_banner2.jpg'); */
+    background-color: rgb(85, 50, 85);
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 30px;
+}
+.insta_text_kids h3{
+    margin: 10px 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 500;
+    color: #484c62;
+    font-family: "Regular";
+    /* margin-top: 120px; */
+}
+.insta_slider-txt_kids img{
+    box-sizing: border-box;
+    margin: 10px auto;
+    border-radius: 35px;
+    margin-top: 120px ;
+    width: 225px;
+    height: 440px;
+}
+.insta_slider-txt_kids{
+    text-align: left;
+}
+.insta_button_kids {
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    margin-left: 83%;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.insta_button_kids :hover{
+    color: #000;
+    background-color: #fff;
+  
+}
+.insta_feed_button_kids{
+    text-align: right;
+    margin: 30px 90px;
+}
+.insta_text_kids2 h3{
+    /* margin: 85px 20px; */
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 500;
+    color: #484c62;
+    font-family: "Regular";
+    margin-top: 130px;
+}
+
+.slider-txt_kids2 img{
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0px -27px;
+    margin-top: 143px;
+}
+.slider-txt_kids2{
+    text-align: left;
+}
+.slider-txt_kids2 h3{ font-family: "Regular";
+    line-height: 35px;
+    width: 230px;
+    text-transform: uppercase;
+    margin: 0px 60px !important;
+}
+.slider-txt_kids2 p{
+    text-transform: capitalize;
+    margin: 0px 60px !important;
+    width: 230px;
+    font-size: 18px;
+    text-align: left;
+}
+.img_bg_kids2 {
+    background-repeat: no-repeat;
+    background-position: center;    
+    background-image: url(../../assets/Perfume_B2.png);
+    /* background-color: green; */
+    margin: 0px 10px;
+    height: 407px;
+}
+.img_bg_kids2 img:hover{
+     transform: translateY(-20px);
+}
+
+.Personal_ex_kids{
+    margin-top: 70px !important;
+    margin-bottom: 80px;
+    /* padding: 200px auto; */
+}
+.Personal_ex_txt_kids{
+margin-top: 100px !important;
+text-align: left;
+padding: 10px 60px;
+}
+.Personal_ex_txt_kids h4{ 
+    font-family: "Regular";
+    line-height: 60px;
+    font-size: 36px;
+    font-weight: 500; color: #484c62;
+    text-transform: uppercase;
+    margin: 0px 8px;
+}
+.Personal_ex_txt_kids p{
+    width: 550px !important;
+    text-transform: capitalize;
+    margin: 5px 8px;
+    width: 600px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    padding-right: 35px;
+}
+.Personal_ex_img_kids{
+    text-align: center;
+}
+.Personal_ex_img_kids img{
+width: 400px;
+height: 400px;
+align-items: center;
+border-radius: 30px;
+}
+.her_btn_discover_kids2{
+    width: 220px;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 20px ;
+    margin: 65px 5px ;
+    border-radius: 50px;
+    font-weight: 600;
+    background: transparent;
+}
+.her_btn_Create_kids2{
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    width: 220px; font-weight: 600;
+    background-color: rgb(207, 193, 61);
+    font-size: 15px;
+    padding: 12px 22px ;
+    margin: 65px 20px ;
+    border-radius: 50px;
+}
+.faq-text2{
+    border-left: none !important;
+    border-right: none !important;
+}
+.accordion-button {
+    font-size: 1.1rem !important;
+    padding: 20px 0px;
+    font-weight: 500;
+}
+ .accordion-button::after{
+    background-image: url(../../assets/drop_down1.png) !important;
+ }
+ .accordion-button:not(.collapsed)::after {
+    background-image: url(../../assets/drop_down1.png) !important;
+ }
+/* discovery page */
+/* .readmorebox {
+    margin: 0px 145px;
+} */
+.discover_kit_bg{
+    margin-top: 140px;
+}
+.discover_kit_bg img{
+   border-radius: 20px;
+   height: 400px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+}
+@media only screen and (max-width: 480px) {
+    .text_kids{
+        text-align: center;
+    }
+    .set_kids{
+        margin: 0px 5px;        
+    }
+    .set_kids h1 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 30px !important;
+   }
+   .kids_btn {
+    text-align: center;
+    margin: 0px 70px;
+}
+.insta_text_kids h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+     font-family: "Regular";
+    margin-top: 65px;
+}
+.insta_button_kids {
+    border: none;
+    text-align: center;
+    margin:0px 10px;
+}
+.insta_slider-txt_kids img {
+    margin: 5px auto;
+    margin-top: 95px;
+    width: 225px;
+    height: 390px;
+}
+.insta_text_kids2 h3 {
+    text-align: center;
+    font-size: 32px;
+    margin: 0px 0px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.Personal_ex_kids {
+    margin: 0px 0px !important;
+    margin-bottom: 50px !important;
+}
+.Personal_ex_txt_kids {
+    text-align: center;
+    margin: 0px 0px !important;
+}
+.Personal_ex_txt_kids h4{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+}
+.Personal_ex_img_kids img {
+    width: 100%;
+    /* height: 100%; */
+    margin-top: 50px !important;
+}
+}

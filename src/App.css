@@ -1,0 +1,376 @@
+  /* Font Style */
+@font-face {
+    font-family: "Italic";
+    src: local("AvegasRoyale-Italic"),
+      url("./avegas_royale/AvegasRoyale-Italic.ttf") format("truetype");
+    font-family: "Bold";
+    src: local("AvegasRoyale-Bold"),
+      url("./avegas_royale/AvegasRoyale-Bold.ttf") format("truetype");
+    font-family: "BoldItalic";
+    src: local("AvegasRoyale-BoldItalic"),
+      url("./avegas_royale/AvegasRoyale-BoldItalic.ttf") format("truetype");
+    font-family: "Regular";
+    src: local("AvegasRoyale-Regular"),
+      url("./avegas_royale/AvegasRoyale-Regular.ttf") format("truetype");
+
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* font-family: "Italic";font-family: "Bold";font-family: "BoldItalic";*/
+  }
+.coll1{
+  width: 7% !important;
+}
+.coll2{
+  width: 20% !important;
+}
+  .linkss {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  body {
+    margin: 0px 0px;
+    overflow-x: hidden;
+     }
+  body p{
+    font-weight: 400 !important;
+    font-family: "Jost", sans-serif !important;
+  }
+  body h5{
+    font-weight: 400 !important;
+   
+  }
+  body h1{
+    font-family: "Regular";
+    font-weight: 500 !important;
+    
+    text-transform: uppercase
+  }
+  
+  body h3{
+    font-weight: 500 !important;
+    font-family: "Regular"!important;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .menu8 {
+    width: 200px;
+  }
+
+  .iconsss {
+    width: 0px;
+  }
+
+  /* footer */
+  .footer2 {
+    margin-top: 110px !important;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background: linear-gradient(to right, #2e2e39, #4b5069);
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+    border-bottom: 0px !important;
+  }
+  .logo_row{
+    margin: 60px 0px !important;
+    /* background-color: #343542; */
+ }
+  .logo_row img {
+    width: 220px;
+    height: 105px;
+    margin: 8px 60px;
+  }
+
+  /* .footer_list2{
+  margin: 0px 10px;
+} */
+  .footer_list p {
+    font-size: 19px;
+    color: white;
+    margin: 20px 0px;
+    margin-left: 34px;
+  }
+
+  .footer_list li {
+    color: white;
+    padding: 2px;
+  }
+
+
+
+  .footer_list_sub p {
+    font-size: 19px;
+    color: white;
+    margin: 20px 0px;
+    margin-left: 34px;
+  }
+
+  .footer_list_sub li {
+    color: white;
+    padding: 2px;
+  }
+
+  .input_type {
+    width: 80%;
+    padding: 10px !important;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 37px !important;
+  }
+
+  .subscribeInput {
+    display: flex;
+  }
+
+  .Submit_btn {
+    width: 100px;
+    height: 35px;
+    padding: 6px;
+    /* padding: 10px 40px; */
+    margin: 9px 0px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    outline: none;
+  }
+
+  .footer_list li:hover {
+    color: rgb(207, 193, 61);
+    font-weight: 600;
+  }
+
+  .footer_list p:hover {
+    color: rgb(207, 193, 61);
+    font-weight: 600;
+  }
+
+  .footer_list_sub p:hover {
+    color: rgb(207, 193, 61);
+    font-weight: 600;
+  }
+
+  .input_type:hover {
+    box-shadow: 0 4px 10px 0 rgb(207, 193, 61);
+    /* box-shadow: rgb(207, 193, 61); */
+  }
+
+  .Submit_btn:hover {
+    background-color: rgb(207, 193, 61);
+    color: black;
+    font-weight: 600;
+  }
+
+  @media only screen and (max-width: 420px) {
+
+    * {
+      overflow-x: hidden;
+      /* padding: 0px !important; */
+      /* width: 100%; */
+    }
+    .copyright {
+      text-align: center;
+      height: 100px;
+    }
+    .payment img {
+      text-align: center;
+      width: 90%;
+      bottom: 15px;
+    }
+    .link2 {
+      margin-left: 0px !important;
+    }
+    .footer {
+      margin-top: 10px !important;
+      width: 100%;
+    }
+    .footer2 {
+      margin: 20px 0px !important;
+    }
+    /* .footer2{
+       width: 50%;
+      } */
+    .footer_list {
+      width: 50% !important;
+    }
+
+    .footer_list_sub {
+      width: 100%;
+    }
+    .footer-main {
+      margin-top: -35px;
+    }
+    .submit_btn {
+      margin-top: 15px !important;
+    }
+    .footer_list p {
+      font-size: 20px;
+      margin: 20px 0px;
+      margin-left: 34px;
+    }
+    .coll1{
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    body {
+      overflow-x: hidden;
+      width: 100%;
+    }
+
+    .link1 img {
+      margin-top: -5px;
+    }
+
+    .copyright {
+      text-align: center;
+      height: 150px;
+    }
+
+    .payment img {
+      text-align: center;
+      width: 60%;
+      bottom: 15px;
+    }
+
+    .txt_last {
+      font-size: 20px;
+    }
+
+    .link3 {
+      text-align: left;
+      text-decoration: none;
+      margin-top: 40px;
+      margin-right: 20px;
+    }
+
+    .link2 {
+      margin-left: 37px;
+    }
+
+    .link4 {
+      text-align: left;
+      text-decoration: none;
+      margin-top: 40px;
+      margin-left: 6px;
+    }
+
+    .submit_btn {
+      margin-top: 69px !important;
+    }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .submit_btn {
+      margin-top: 45px !important;
+    }
+
+    .link3 {
+      text-align: left;
+      text-decoration: none;
+      margin-top: 40px;
+      margin-left: 210px;
+      margin-right: 20px;
+    }
+
+    .payment img {
+      margin-right: 40px;
+      width: 15%;
+      text-align: right;
+      position: absolute;
+      right: 0;
+      bottom: 30px;
+
+    }
+
+    .copyright {
+      text-align: right;
+      position: relative;
+    }
+
+    .payment {
+      margin-top: 0px;
+    }
+
+    .link2 {
+      text-align: left;
+      text-decoration: none;
+      margin-top: 40px;
+
+      margin-right: 20px;
+    }
+
+    .link4 {
+      text-align: left;
+      text-decoration: none;
+      margin-top: 40px;
+      margin-left: -18px;
+    }
+  }
+
+  /*  Large screens */
+  @media (min-width: 1281px) {
+    .submit_btn {
+      margin-top: 45px !important;
+
+    }
+
+    .link3 {
+      text-align: left;
+      text-decoration: none;
+      margin-top: 40px;
+
+      margin-right: 20px;
+
+    }
+
+    .payment img {
+      margin-right: 40px;
+      width: 15%;
+      text-align: right;
+      position: absolute;
+      right: 0;
+      bottom: 30px;
+
+    }
+
+    .copyright {
+      text-align: right;
+      position: relative;
+    }
+
+    .payment {
+      margin-top: 0px;
+    }
+
+    .link2 {
+      text-align: left;
+      text-decoration: none;
+      margin-top: 40px;
+      margin-left: 691px;
+      margin-right: 20px;
+    }
+
+    .link4 {
+      text-align: left;
+      text-decoration: none;
+      margin-top: 40px;
+      margin-left: -18px;
+    }
+  }
+
+  @media(max-width:475) {
+    .logo_row {
+      width: 100% !important;
+    }
+  }

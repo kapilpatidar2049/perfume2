@@ -1,0 +1,97 @@
+.topspace {
+    margin-top: 105px !important;
+}
+
+.shippingImg {
+    /* height: 600px; */
+    /* background-position: center;
+    background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 60vh;
+}
+.shipImg {
+    background-image: url("../../assets/shippingImg.png");
+}
+.termImg {
+    background-image: url("../../assets/termsImg.webp");
+}
+
+.faqImg {
+    background-image: url("../../assets/faqImg.webp");
+}
+
+.shippingHeading {
+    position: relative;
+    left: 110px;
+    top: 30px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.shippingImgSmall {
+    width: 100%;
+}
+
+.shippingSmall {
+    background-color: rgb(245, 236, 220);
+    border-radius: 10px;
+}
+
+.shippingHeading h1 {
+    font-weight: 400;
+    font-size: 2.9rem;
+}
+
+.outerHeading {
+    font-weight: 600;
+    margin: 40px 0px;
+}
+
+.shippingList li {
+    color: black !important;
+}
+
+.termList li {
+    color: black !important;
+}
+
+.shippingList li {
+    list-style: circle !important;
+}
+
+.shippingSmall {
+    display: none;
+}
+.Privacy h2{
+font-family: "Regular";
+margin: 40px 0px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.Privacy h3{
+    margin: 30px 0px;
+    text-transform: capitalize;
+}
+@media (max-width:475px) {
+    .shippingSmall {
+        display: block;
+    }
+    .shippingImg {
+        display: none;
+    }
+    .Privacy h2{
+        text-align: center;
+    }
+    .Privacy h3{
+     width: 305px;
+    }
+}
+
+.faqHeadSamll {
+    font-weight: 600 !important;
+    font-family: "Regular";
+}

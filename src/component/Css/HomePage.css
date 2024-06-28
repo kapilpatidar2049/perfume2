@@ -1,0 +1,1114 @@
+/************** Banner image ***************/
+body{
+    overflow-x: hidden !important;
+  font-family: "Jost",sans-serif !important;
+  font-weight: 200 !important;
+  }
+.HOME{
+  font-family: "Jost",sans-serif !important;
+
+  }
+.homepage{
+    color: white;
+    width: 100%;
+    height: 900px;
+    /* background-image: url('../../assets/Home1.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    position: relative;
+    bottom: 50%;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    top: -105px;
+    z-index: 1;
+}
+.home_heading{
+    position: absolute;
+    margin:0px  20px;
+    top: 50%; 
+}
+.home_heading h1{
+    text-transform: uppercase;
+    top:auto !important;
+    margin-left: 100px;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: "Regular";
+}
+.home_heading p{
+    margin-left: 100px;
+    font-size: 1.4rem;
+    margin-bottom: -25px;
+}
+.home_button{
+    width: 220px;
+    border: 1px solid white;
+    font-size: 15px;
+    color: white !important;
+    padding: 10px 20px;
+    margin: 50px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: transparent;
+    margin-left: 100px;
+}
+.home_button1 {
+    border: none;
+    text-transform: uppercase;
+    width: 220px !important;
+    font-weight: 600;
+    background-color: rgb(207, 193, 61);
+    font-size: 15px;
+    padding: 12px 22px;
+    margin: 50px 20px;
+    border-radius: 50px;
+}
+/************** Banner image End***************/
+
+
+/**************** Slider section ******************/
+.slider_cont_home{
+    margin: -85px -50px;
+    padding: 0px;
+}
+.slider-txt_home img{
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 5px 40px;
+    width: 260px;
+    height: 300px;
+}
+.slick-slide{
+    border: none !important;
+}
+ .slider-txt_home {
+    text-align: left;
+}
+.slider-txt_home h3{
+    font-family: "Regular";
+    text-transform: uppercase;
+    margin: 0px 71px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+.slider-txt_home p{
+    text-transform: uppercase;
+    margin: 0px 42px;
+    padding: 0px 10px;
+    width: 195px;
+    text-align: center !important;
+    font-size: 37px;
+    text-align: left;
+    font-weight: 300;
+    color: #fff;
+}
+.program{
+    margin-top: 90px;
+}
+.program img{
+    display: block;
+    padding: 20px;
+    margin-left: 0px;
+    width: 365px;
+    border-radius: 75px;
+    height: 367px;
+}
+.img_bg_home1{
+    position: relative;
+}
+.img_bg_paragraph {
+position: absolute;
+text-align: center;
+
+font-family: "Regular";
+top: 150px;
+}
+/**************** Slider section End******************/
+
+/**************** Personalized Experience *******************/
+.Prsnl_ex{
+    margin: 0px 0px;
+    padding-top: 175px !important;
+    /* margin-bottom: -30px; */
+}
+.Prsnl_ex_txt{
+    margin: 120px 0px !important;
+    text-align: left;
+    padding: 10px 60px;
+}
+.Prsnl_ex_txt h2{
+    margin: 0px 4px;
+    text-align: left;
+    font-family: "Regular";
+    text-transform: uppercase;
+    margin-bottom: 15px !important;
+    font-size: 36px;
+    color: #484c62;
+    font-weight: 500;
+    line-height: 60px;
+}
+.Prsnl_ex_txt p{
+    width: 550px ;
+    text-transform: capitalize;
+    margin: 5px 10px;
+    /* width: 600px; */
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400; 
+    padding: 3px 0px;
+    padding-right: 35px;
+}
+.Prsnl_ex_img{
+    margin: 35px 0px;
+    text-align: center;
+}
+.Prsnl_ex_img img{
+    width: 400px;
+    height: 450px;
+    align-items: center;
+    border-radius: 30px;
+}
+.her_btn_discover_home2{
+    width: 220px !important ;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 65px 5px;
+    border-radius: 50px;
+    font-weight: 600;
+    background: transparent;
+    border: 2px solid black;
+}
+.her_btn_Create_home2{
+    border: none;
+    text-transform: uppercase;
+    width: 220px !important;
+    font-weight: 600;
+    background-color: rgb(207, 193, 61);
+    font-size: 15px;
+    padding: 12px 22px;
+    margin: 10px 20px;
+    border-radius: 50px;
+}
+/**************** Personalized Experience End*******************/
+
+
+/******************** Home page Vedio ****************************/
+.explore_text{
+    margin: 80px 5px;
+    text-align: center;
+    font-size: 19px;
+}
+.explore_text h1{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: "Regular";
+    text-transform: uppercase;
+    line-height: 60px;
+    color: #484c62;
+    margin-bottom: 80px;
+}
+.slider_cont2{
+    margin: -85px -115px;
+    padding: 0px;
+    margin-left: -40px;
+}
+.home_video{
+    text-align: center;
+    border-radius: 50px !important;
+    max-width: 100%;
+    max-height: 100%;
+}
+.home_video_section {
+    border-radius: 45px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+/******************** Home page Vedio End **************************/
+
+/******** bottle slider **************/
+.img_bg_home{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../../assets/Perfume_B2.png);
+    margin: 10px 5px;
+    height: 701px;
+    margin-top: -150px;
+}
+.img_bg_home img:hover{
+     transform: translateY(-20px);
+}
+.home_bottle_slider-txt3 img{
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0px -53px;
+    margin-top: 143px;
+}
+.home_bottle_slider-txt3{
+    text-align: left;
+}
+.home_bottle_slider-txt3 h3{ 
+    font-family: "Regular";
+    line-height: 45px;
+    width: 220px;
+    text-transform: uppercase;
+    margin: -10px 32px !important;
+    font-weight: 600;
+}
+.home_bottle_slider-txt3 p{
+    text-transform: capitalize;
+    margin: 5px 32px !important;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+}
+
+/*********************************** set descovery **********************************/
+  .discovery-set{
+    margin: 100px 20px;
+    padding: 150px 20px;
+    background-color: #C9C9B0;
+    border-radius: 60px;
+    margin-top: 200px !important;
+    padding-bottom: 80px !important;
+
+}
+.set_txt{
+    text-align: left;
+    padding: 70px 60px;
+    padding-left: 40px !important;
+}
+.set_txt h4{
+    font-family: "Regular";
+    text-transform: uppercase;
+    margin: 0px 10px ;
+    margin-bottom: 20px !important;
+    font-size: 40px;
+    color: #484c62;
+    font-weight: 400;
+}
+.set_txt p{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.set_img{
+    text-align: center;
+}
+.set_img img{
+    width: 400px;
+    height: 415px;
+    border-radius: 30px;
+}
+.her_btn_discover_him{
+    width: 220px !important ;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 65px 5px;
+    border-radius: 50px;
+    font-weight: 600;
+    background: transparent;
+    border: 2px solid black;
+}
+.her_btn_Create_him{
+    border: none;
+    text-transform: uppercase;
+    width: 220px !important;
+    font-weight: 600;
+    background-color: rgb(207, 193, 61);
+    font-size: 15px;
+    padding: 12px 22px;
+    margin: 65px 20px;
+    border-radius: 50px;
+}
+/*********************************** Set discovery End**********************************/
+
+
+/******************** Home page Video why choose us and content (ONE) ****************************/
+
+.home_video-2{
+    position: relative;
+    display: inline-block; 
+    margin: 30px 0px;
+    padding-left: 20px;
+}
+.home_video-3{
+    position: relative;
+    display: inline-block; 
+    margin: 30px -55px;
+}
+.home_video_section-2 {
+    border-radius: 30px;
+    overflow: hidden;
+    width: 280px;
+    height: 280px;
+    object-fit: cover; 
+    margin: 10px 35px;
+}
+.video-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 50px;
+    background-color: transparent;
+}
+/************ home content  *************/
+.home_content{
+    margin: 50px 0px;
+    padding: 20px 30px;
+    width: 62%;
+}
+.home_content h2{
+    font-family: "Regular";
+    font-size: 36px;
+    color: rgb(72 67 80);
+    margin-bottom: 30px;
+    margin-left: 35px;
+}
+.home_content p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 27px;
+    margin-left: 35px;
+}
+.home_content1{
+    margin: 80px 10px;
+    padding: 20px 30px;
+    width: 65%;
+}
+.home_content1 h2{
+    font-family: "Regular";
+    font-size: 40px;
+    color: #484c62;
+    margin-bottom: 35px;
+}
+.home_content1 p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/******************** Home page Video  why choose us and content End**************************/
+
+/*************  button ****************/
+.content_with_button{
+    margin-left: 32px !important;
+    width: 220px !important ;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 65px 5px;
+    border-radius: 50px;
+    font-weight: 600;
+    background: transparent;
+    border: 2px solid black;
+}
+.content_with_button2{
+    border: none;
+    text-transform: uppercase;
+    width: 220px !important;
+    font-weight: 600;
+    background-color: rgb(207, 193, 61);
+    font-size: 15px;
+    padding: 12px 22px;
+    margin: 65px 20px;
+    border-radius: 50px;
+}
+/******************** Home page Video  why choose us and content End (SECOND)**************************/
+
+
+/********************************* Pure tales *********************************/
+.pure_tales{
+    text-align: center;
+    margin: 100px 0px !important;
+    padding: 20px 20px;
+    background-color: #C9C9B0;
+    border-radius: 60px;
+    margin-top: 150px !important;
+}
+.pure_text h2{
+    text-align: center;
+    margin-top: 73px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #484c62;
+    font-family: "Regular";
+
+}
+.pure-1 img{
+    width: 260px;
+    height: 235px;
+    align-items: center;
+    border-radius: 15px;
+    margin: 40px 10px;
+}
+.pure-1 img:hover{
+    transform: scale(1.1);
+}
+.pure-1 h3{
+    font-family: "Regular";
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.pure-1 p{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 400;
+}
+.pure_button{
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: #383092;
+    background-color: transparent;
+    border: none;
+    margin: 20px 5px;
+    text-align: center;
+}
+.pure_button:hover{
+    color: rgb(207, 193, 61);
+ }
+/************************************* Pure tales End **********************************/
+
+/***********************************Image and Popup section *********************************/
+.popup_section{
+    margin-top: 80px !important;
+    text-align: center;
+}
+.popup_sec_1 img {
+    width: 260px;
+    height: 390px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+.popup_sec_2 img {
+    width: 260px;
+    height: 390px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+.popup_sec_3 img {
+    width: 260px;
+    height: 390px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+
+.popup_circle h5{
+    font-family: "Regular";
+    margin-bottom: -13px;
+    color: #484c62;
+    margin-top: 18px;
+    padding: 13px;
+    font-weight: 500;
+    font-size: 19px;
+}
+.popup_circle{
+    margin-top: -105px;
+    margin-left: 215px;
+    width: 178px;
+    height: 145px;
+    padding: 0px 5px;
+}
+.card{
+    border-radius: 50% !important;
+    width: 132px  !important;
+    height: 132px !important;
+    margin: 0px 0px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.arrow img{
+    margin-left: 86px !important;
+    margin-top: -30px;
+    width: 13px;
+    height: 13px;
+}
+
+
+
+/* popup */
+/* Popup styles */
+.popup_content {
+    display: none;
+    margin-left: -254px;
+    text-align: center;
+    margin-top: -440px;
+    width: 376px;
+    position: absolute;
+    background-color: rgb(93, 112, 175);
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    z-index: 1;
+}
+.close-button{
+   border-radius: 30px;
+    margin-left: 308px;
+    width: 25px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: #fff;
+}
+.popup_content p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.popup_content-1{
+    display: none;
+    text-align: center;
+    margin-top: -455px;
+    width: 376px;
+    position: absolute;
+    background-color: rgb(93, 112, 175);
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    z-index: 1;
+}
+.popup_content-1 p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+/***********************************Image and Popup section End*********************************/
+
+/********************************** Insta Feed ************************************/
+.insta_feed1{
+    margin-left: 238px;
+}
+.insta_feed{
+    width: 100%;
+    min-height: 120vh;
+    background:  url('../../assets/Home1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    color: white;
+    margin-top: 100px;
+}
+.insta_text h3{
+    padding: 30px 0px;
+    margin-left: 130px;
+    font-size: 42px;
+    font-weight: 500;
+    font-family: "Regular";
+}
+.insta_slider-txt img{
+    box-sizing: border-box;
+    border-radius: 0px;
+    margin: 40px -37px;
+    padding: 15px 43px;
+    width: 295px;
+    height: 280px;
+}
+.slick-slide{
+    border: none;
+}
+ 
+.insta_button{
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    margin-left: 85%;
+    text-align: right;
+    margin-bottom: 35px;
+}
+.insta_button:hover{
+    color: rgb(207, 193, 61);
+ }
+ .greater_btn{
+    margin-top: 10px;
+    font-size: 17px;
+ }
+/********************************** Insta Feed ************************************/
+
+
+/********************************** FAQ's ************************************/
+.Faq_text{
+    margin: 25px 90px;
+    text-align: left;
+    font-size: 19px;
+}
+.faq2{
+    /* margin-left: 50px !important;
+    margin-right: 50px !important; */
+    padding: 0px 50px;
+}
+.Faq_text h1{
+    margin-left: 65px;
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: "Regular";
+    text-transform: uppercase;
+    line-height: 25px;
+    color: #484c62;
+}
+.home_faq-text{
+    border-left: none !important;
+    border-right: none !important;
+}
+.accordion-button {
+    font-size: 1.3rem;
+    padding: 20px 0px;
+    font-weight: 500;
+}
+ .accordion-button::after{
+    background-image: url(../../assets/drop_down1.png) !important;
+ }
+ .accordion-button:not(.collapsed)::after {
+    background-image: url(../../assets/drop_down1.png) !important;
+ }
+ 
+ .button{
+    margin: 14px 0px !important;
+ }
+ .accordion-body{
+    font-weight: 400;
+ }
+/********************************** FAQ's End *********************************/
+
+
+@media only screen and (max-width: 480px) {
+    .slider_cont1{
+        margin: -5px 0px;
+        padding: 0px;
+        margin-top: -15px;
+        width: 338px;
+    }
+    .slider_cont2 {
+        margin: -103px 0px;
+        margin-left: -5px;
+    }
+    .img_bg_home{
+        width: 100%;
+        height: 750px;
+        max-height: 770px;
+    }
+    .slider-txt_home img{
+        margin: 15px auto;
+        width: 272px;
+        height: 345px;
+    }
+    .home_bottle_slider-txt3{
+       max-height: 705px;
+        width: 338px;
+    }
+    .home_bottle_slider-txt3 h3 {
+        line-height: 36px;
+        width: 200px;
+        margin: 3px 50px !important;
+    }
+    .home_bottle_slider-txt3 p {
+        text-align: left;
+        margin: 5px 50px !important;
+    }
+    .home_bottle_slider-txt3 img {
+        margin: 0px -44px;
+        margin-top: 158px;
+    }
+    .explore_text h1 {
+        font-size: 29px;
+        margin: 0px 0px;
+        line-height: 45px;
+    }
+    .pure-1 img {
+        width: 205px;
+        height: 215px;
+        align-items: center;
+        border-radius: 15px;
+        margin: 42px -7px;
+    }
+    .pure-1 h3{
+        font-size: 23px;
+    }
+    .homepage{
+        width: 100%;
+        height: 570px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+    .home_heading {
+        top: 32%;
+    }
+    .home_heading h1{
+      font-family: "Regular";
+      margin: 0px   15px !important;
+      overflow: hidden;
+      font-size: 21px ;
+      margin-top: 42px !important;
+    }
+    .home_heading p{
+        margin: 0px   15px !important;
+        font-size: 15px;
+    }
+    .button {
+        margin: 10px 0px;
+        text-align: center;
+    }
+    .home_button{
+    padding: 12px 25px;
+    margin: 0px 0px;
+   margin-top: 30px;
+    border-radius: 50px;
+    /* margin-bottom: 0px;
+    margin-left: 30px; */
+    }
+    .home_button1 {
+        padding: 12px 22px;
+        margin: 30px 0px;
+        
+    }
+    .her_btn_discover_home2 {
+        margin: 10px 10px !important;
+        margin-top: 40px !important;
+    }
+    .her_btn_Create_home2{
+        margin: 10px 0px;
+        margin-top: 30px !important;
+    }
+     .Prsnl_ex {
+        padding-top: 70px !important;
+        margin-top: 50px !important;
+    }
+    .Prsnl_ex_txt {
+        margin: 0px 0px !important;
+        padding: 0px 0px !important;
+    }
+    .Prsnl_ex_txt h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    .Prsnl_ex_txt p {
+        margin: 5px 0px;
+        text-align: center;
+       padding-right: 0px;
+        width: 100%;
+    }
+    .Prsnl_ex_img img{
+        width: 100%;
+        height: 325px;
+        overflow: hidden;
+    }
+    .home_video-3{
+        margin: 30px 0px;
+    }
+   .home_video{
+    margin: 0px 0px ;
+   }
+    .home_video_section{
+        /* width: 100% !important;
+        height: 280px ; */
+        margin: 20px 0px;
+    }
+    .set_txt{
+        width: 250px;
+    }
+    .set_txt h4{
+      text-align: center;
+      font-size: 30px;
+      
+    }
+    
+    .discovery-set{
+        width: 100%;
+        padding: 40px 0px;
+        margin: 105px 0px !important;
+    }
+    .her_btn_discover_him{
+        margin: 10px 10px !important;
+        margin-top: 40px !important;
+    }
+    .her_btn_Create_him{
+        margin: 10px 10px !important;
+        margin-top: 40px !important;
+    }
+    .set_img img{
+        width: 100%;
+        height: 300px;       
+    }
+    .home_content p{
+        margin-top: 150px;
+        text-align: left;
+        margin-left: -100px;
+    }
+    .home_content1 p {
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 30px;
+    }
+    .home_video_section-2{
+        border-radius: 30px;
+        overflow: hidden;
+        width: 80%;
+        height: 250px;
+        object-fit: cover;
+        margin: 10px 35px;
+    }
+    .home_video_section-3 {
+        width: 80%;
+        margin-top: -72px;
+        overflow: hidden;
+    }
+    .home_content-1 p{
+        text-align: left;
+        margin-top: 240px;
+        margin-left: 25px;
+        overflow: hidden;
+    }
+    .content_with_button {
+        /* margin-top: 0px;
+        margin-left: 62px !important; */
+        margin: 30px 50px !important;
+    }
+    .content_with_button2 {
+        margin-top: 0px !important;
+        margin-left: 49px;
+    }
+    .popup_circle {
+        margin-top: -125px;
+        margin-bottom: 40px;
+        padding: 10px 10px;
+        text-align: center;
+        margin-left: 35px;
+        width: 230px;
+       height: 152px;
+    }
+    .card {
+       margin: 0px 60px;
+        overflow: hidden;
+    }
+    .popup_content {
+        margin-left: -11px;
+        margin-top: -490px;
+        width: 340px;
+        overflow: hidden;
+    }
+    .popup_content-1{
+        margin-left: 5px;
+        margin-top: -490px;
+        width: 340px;
+        overflow: hidden;
+    }
+    .close-button{
+        margin-left: 280px;
+        overflow: hidden;
+    }
+
+   .pure_tales{
+    width: 100%;
+    margin: 0px 0px;
+    margin-top: 75px !important;
+   }
+    .pure_button{
+       margin: 0px auto;
+       width: 85px;
+    }
+    .arrow img {
+        margin-left: 86px !important;
+        margin-top: -30px;
+        width: 13px;
+        height: 13px;
+        overflow: hidden;
+    }
+    .home_video-2 {
+        margin: 0px 0px;
+    }
+    .home_content h2 {
+        margin: 0px 0px !important;
+        text-align: center;
+    }
+    .home_content p {
+        text-align: center;
+        margin: 0px 0px !important;
+    }
+    .home_content1 {
+        margin: 0px 5px;
+        width: 100%;
+    }
+    .home_content {
+        margin: 0px 10px;
+        width: 100%;
+    } 
+    .insta_button {
+        margin: 45px 0px !important;       
+    }
+    .insta_feed1 {
+        /* margin-left: 70px; */
+        margin: 0px 53px;
+    }
+    .insta_feed{
+        width: 100%;
+        min-height: 95vh;
+        height: 500px!important;
+        padding: 0px 20px;
+        margin: 30px 0px !important;
+    }
+    .insta_slider-txt{
+        width: 280px; 
+        margin: -100px -20px;   
+    }
+    .insta_slider-txt img{
+        width: 300px;
+        margin-left: -18px; 
+    }
+    .insta_text h3 {
+        margin: 30px auto;
+        text-align: center;
+        font-size: 25px;
+    }
+    .insta_feed_button{
+        margin-top: 40px !important;
+        text-align: center;
+    }
+}
+/* @media only screen and (max-width: 780px) {
+    .Prsnl_ex_txt p {
+        width: 330px;
+    }
+    .Prsnl_ex_img img{
+        margin-left: 0px;
+        overflow: hidden;
+    }
+    .her_btn_Create_home2{
+        margin-top: -38px;
+    }
+    .her_btn_discover_home2 {
+        margin-bottom: 0px;
+    }
+    .home_video_section {
+        width: 725px;
+    }
+    .set_img img{
+        margin-left: -47px;
+        overflow: hidden;
+    }
+    .set_txt h4{
+        margin-left: -35px;
+        overflow: hidden;
+    }
+    .set_txt p{
+        margin-left: -35px;
+        overflow: hidden;
+    }
+    .her_btn_discover_him{
+        margin-left: -38px;
+        margin-bottom: 38px;
+        margin-top: 45px;
+        width: 140px;
+        overflow: hidden;
+    }
+    .her_btn_Create_him{
+        margin-top: 45px;
+        width: 140px;
+        margin-left: 28px;
+        overflow: hidden;
+    }
+    .home_content h2{
+        font-family: "Regular";
+        text-align: center;
+        margin-left: 100px;
+        overflow: hidden;
+    }
+    .home_content p{
+        overflow: hidden;
+    }
+    .home_video_section-3{
+        margin-left: -46px;
+        overflow: hidden;
+    }
+    .home_content-1 p{
+        width: 365px;
+        overflow: hidden;
+    }
+    .content_with_button{
+        margin-top: 40px;
+        overflow: hidden;
+    }
+    .popup_section{
+        margin: 0px auto;
+        margin-top: 40px;
+        text-align: center;
+        
+    }
+    .popup_sec_1 img{
+        width: 207px;
+        height: 375px;
+        overflow: hidden;
+    }
+    .popup_sec_2 img{
+        width: 207px;
+        height: 375px;
+        overflow: hidden;
+    }
+    .popup_sec_3 img{
+        width: 207px;
+        height: 375px;
+    }
+    .popup_circle h5{
+        font-size: 15px;
+        overflow: hidden;
+    }
+    .card{
+        margin-left: 129px;
+        margin-top: -120px;
+        border-radius: 100px;
+        width: 117px;
+        overflow: hidden;
+    }
+    .popup_content {
+        margin-left: 15px;
+        margin-top: -427px;
+        overflow: hidden;
+    }
+    .popup_content-1 {
+        margin-left: -131px;
+        overflow: hidden;
+        margin-top: -427px;
+    }
+    .arrow img {
+        margin-left: 86px !important;
+        margin-top: -30px;
+        width: 13px;
+        height: 13px;
+        overflow: hidden;
+    }
+    .insta_button{
+        margin-left: 70%;
+        overflow: hidden;
+    }
+    
+    .pure-2 img{
+        margin-left: 170px;
+        overflow: hidden;
+    }
+    .pure-3 img{
+        margin-left: 170px;
+        overflow: hidden;
+    }
+    .pure_button{
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+} */

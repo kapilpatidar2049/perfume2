@@ -1,0 +1,441 @@
+/****************** Heading ********************/
+.about_heading img {
+    cursor: pointer;
+    text-align: center;
+    width: 137px;
+    height: 95px;
+    margin-left: 46%;
+}
+.about_heading h2{
+    text-align: center;
+    font-weight: 400;
+    font-family: "Regular";
+    cursor: pointer;
+}
+/****************** Heading ********************/
+
+
+/******************************* about banner and content ***************************/
+.aboutpage{
+    width: 100%;
+    min-height: 100vh;
+    /* background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../../assets/p3.png'); */
+    background-size: cover;
+    background-position: center;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    color: white;
+    margin-top: -65px !important;
+}
+/* .about_banner_heading{
+    /* height: 760px; 
+} */
+.about_banner_heading h1{
+    /* top:auto !important; */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+    font-size: 42px;
+    font-weight: 500;
+    padding: 0px 50px;
+    font-family: "Regular";
+}
+.about_banner_heading p{
+    margin-left: 60px;
+    font-size: 18px;
+    margin-bottom: 100px;
+    text-align: justify;
+    margin-top: 40px;
+}
+.bg-row{
+    margin-top: 6rem;
+}
+/******************************* about banner and content *******************************/
+
+
+/******************************* second section (Our founder ) ***************************/
+/* .three-container{
+    background-color: wheat;
+} */
+.our-founder img{
+    margin-left: 25px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    border-radius: 30px;
+    width: 97%;
+    height: 440px;
+}
+.our-founder-content h1{
+    color: #3c2222;
+    margin-top: 100px;
+    margin-left: 82px;
+    font-size: 42px;
+    font-weight: 600;
+    font-family: "Regular";
+    text-align: center;
+}
+.our-founder-content p{
+    color: #3c2222;
+    margin-left: 85px;
+    font-size: 16px;text-align: justify;
+    justify-content: center;
+    margin-top: 40px;
+}
+/***************************** second section end (Our founder ) ***************************/
+
+
+/*********************************** unique brand  with slider****************************/
+.uniq h1{
+    margin-top: 35px;
+    font-size: 32px;
+    font-family: "Regular";
+    margin-bottom: 5%;
+    font-weight: 600;
+    text-align: center;
+    padding: 0px 100px;
+}
+.bg_sldr1{
+    /* margin-left: 40px; */
+    background-color: #efe0c6;
+    margin-left: 20px !important;
+    border-radius: 20px;width: 525px;
+}
+/****** slider ******/
+.bg_sldr{
+    background-color: #efe0c6;
+    /* margin-left: 20px !important; */
+    border-radius: 20px;
+   
+    width: 560px;
+}
+.sldr_text{
+    margin-left: 0px;
+}
+.sldr_text h4{
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Regular";
+    cursor: pointer;
+}
+.sldr_text p{
+    font-size: 14px;text-align: justify;
+    cursor: pointer;
+}
+.sldr_img img{
+    margin-top: 31px;
+    cursor: pointer;
+    /* margin-left: 45px; */
+    /* margin-right: -3px !important; */
+    margin-right: 0px;
+    width: 190px;
+    height: 215px;
+    border-radius: 20px;
+}
+.sldr_img1 img{
+    margin-right: 15px !important;
+    margin-top: 31px;
+    cursor: pointer;
+    /* margin-left: 45px; */
+    margin-left: 0px;
+    width: 190px;
+    height: 215px;
+    border-radius: 20px;
+}
+.about_logo img{
+    margin: 13px 0px;
+    cursor: pointer;
+}
+.prvus_btn{
+    margin-right: 125px;
+    width: 24px;
+    padding: 7px;
+    height: 45px;
+    color: #2c2c22 !important;
+    border-color: #2c2c22 !important;
+    border-radius: 15px;
+    background-color: #2c2c22;
+}
+.next_btn{
+    margin-left: 139px;
+    width: 25px;
+    padding: 7px;
+    height: 45px;
+    color: #2c2c22 !important;
+    border-color: #2c2c22 !important;
+    border-radius: 15px;
+    background-color: #2c2c22;
+}
+/*********************************** unique brand End with slider end****************************/
+
+
+/************************************ we are rewriting  *******************************/
+.rewriting_heading h1{
+    margin-top: 80px;
+    font-size: 32px;
+    font-family: "Regular";
+    color: #2c1919;
+    font-weight: 600;
+    text-align: center;
+    padding: 0px 100px;
+}
+.rewriting_image img{
+    margin-top: 55px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    width: 535px;
+    height: 650px;
+}
+.rewriting_content{
+    margin-top: 100px;
+}
+.rewriting_logo_text p{
+   text-align: justify;
+}
+.rewriting_logo img{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.rewriting_content-1{
+    margin-top: 5%;
+}
+.rewriting_logo_text h5{
+    color: #2c1919;
+    font-size: 15px;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+.rewriting_logo_text h5{
+    color: #2c1919;
+}
+/************************************ we are rewriting  end *******************************/
+
+
+/************************************ world renowned *******************************/
+.world_renowned{
+    margin-top: 80px !important;
+    margin-bottom: 10%;
+}
+.world_renowned h1{
+    margin-top: 35px;
+    font-size: 40px;
+    margin-bottom: 8px;
+    font-family: "Regular";
+    color: #2c1919;
+    font-weight: 600;
+    text-align: center;
+}
+.world_renowned p{
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 10%;
+    margin-top: 40px;
+}
+
+/****** slider ******/
+.w_slider{
+    border-radius: 25px;
+    margin-left: 15%;
+}
+.w-button{
+    margin-left: 44px;
+    background-color: #000;
+    border-radius: 15px;
+}
+.w-button1{
+    margin-right: 5px;
+    background-color: #000;
+    border-radius: 15px;
+}
+.world_btn{
+    margin-left: 15% !important;
+}
+/************************************ world renowned end*******************************/
+
+
+/*********************************** join our team ********************************/
+.join_our_team_container{
+    /* background-color: rgb(93, 112, 175); */
+    background-color:  #484c62;   
+    /* background-color:rgb(207, 193, 61); */
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+    width: 96% !important;
+    
+}
+.join_team_text{
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+.join_team_text h5{
+   text-align: center;
+   /* color: #ebd8b8; */
+   /* color: rgb(207, 193, 61); */
+   color: #fff;
+   font-family: "Regular";
+   line-height: 36px;
+}
+.join_team_text h1{
+   color: #fff;
+   text-align: center;
+    font-family: "Regular";
+}
+.join_team_text p{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(207, 193, 61);
+    padding: 0px 150px;
+}
+.join_our_team_btn{
+    font-size: 14px;
+    border-radius: 10px;
+   border: 2px solid black;
+    width: 180px;
+    height: 48px;
+    margin-left: 39%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 18px;
+    font-weight: 600;
+    padding: 12px;
+    /* color: rgb(207, 193, 61); */
+}
+.join_our_team_btn:hover{
+    background-color: rgb(207, 193, 61);
+    color: #fff;
+    border: 2px solid white;
+}
+/******************************** join our team end *******************************/
+
+
+
+@media only screen and (max-width: 480px) {
+.about_banner_heading{
+    overflow: hidden;
+}
+.about_banner_heading h1{
+    margin-left: 10px !important;
+}
+.about_banner_heading p{
+    margin-left: 10px !important;
+}
+.our-founder img{
+    /* margin-top: 25%;
+    width: 352px;
+    height: 419px;
+    margin-bottom: 0px; */
+    margin-top: 3%;
+    width: 300px;
+    height: 406px;
+    margin-bottom: 0px;
+    margin-left: 8px
+}
+.our-founder-content h1 {
+    margin-top: 50px !important;
+    margin-bottom: 10px !important;
+    margin-left: 15px !important;
+}
+.our-founder-content p{
+    margin-left: 18px !important;
+    margin-bottom: 25px;
+}
+.sldr_img img {
+    margin-top: 130px;
+    margin-left: -13px;
+    width: 130px;
+    height: 160px;
+}
+.bg_sldr {
+    margin-left: 0px !important;
+    margin-top: 15px;
+    padding: 4px !important;
+    border-radius: 0px;
+}
+.prvus_btn {
+    margin-top: 468px;
+    margin-right: 0px;
+}
+.next_btn {
+    margin-top: -400px;
+    margin-left: 20px !important;
+}
+.rewriting_image img {
+    width: 345px !important;
+    height: 456px !important;
+}
+.rewriting_logo img {
+    margin-top: 18px;
+    margin-left: 0px;
+}
+.w_slider {
+    margin-left: 0%;
+    border-radius: 25px;
+}
+.w-button{
+    margin-left: 0px;
+}
+.w-button1{
+    margin-right: 0px;
+}
+.join_team_text h5{
+    margin-top: 100px;
+}
+.join_our_team_btn{
+    margin-left: 10% !important;
+}
+}
+@media only screen and (max-width: 780px) {
+    .about_banner_heading{
+        overflow: hidden;
+    }
+    .about_banner_heading h1{
+        margin-left: 35px;
+    }
+    .about_banner_heading p{
+        margin-left: 35px;
+    }
+    .our-founder-content h1{
+        margin-top: 0px;
+        margin-left: 35px;
+    }
+    .our-founder-content p{
+        margin-left: 35px;
+    }
+    .bg_sldr {
+        margin-top: 25px;
+    }
+    .sldr_img img{
+        margin-left: 35px;
+    }
+    .prvus_btn {
+        margin-top: 325px;
+        margin-right: 0px;
+        width: 25px;
+        margin-left: -40px;
+    }
+    .next_btn {
+        margin-left: 75px ;
+        margin-top: -270px;
+      
+    }
+    .rewriting_image img {
+        width: 681px;
+        height: 746px;
+    }
+    .w-button{
+        display: none;
+    }
+    .w-button1{
+        display: none;
+    }
+    .w_slider{
+        margin-left: 0px
+    }
+    .world_btn {
+        margin-left: -32%;
+    }
+    .join_our_team_btn{
+        margin-left: 28%;
+    }
+}

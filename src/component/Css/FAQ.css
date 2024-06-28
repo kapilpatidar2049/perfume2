@@ -1,0 +1,58 @@
+
+/********************************** FAQ's ************************************/
+.Faq_text{
+    margin: 25px 90px;
+    text-align: left;
+    font-size: 19px;
+}
+.faq2{
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+    padding: 0px 50px;
+}
+.faq-text2  h2{
+    font-family: "Jost", sans-serif !important;
+    padding: 0px 0px !important;
+}
+.Faq_text h1{
+    margin-left: 65px;
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: "Regular";
+    text-transform: uppercase;
+    line-height: 25px;
+    color: #484c62;
+    height: 85px;
+    margin-top: 40px;
+}
+.home_faq-text{
+    border-left: none !important;
+    border-right: none !important;
+}
+.accordion-button {
+    font-size: 1.3rem;
+    padding: 20px 0px;
+    font-weight: 500;
+}
+ .accordion-button::after{
+    background-image: url(../../assets/drop_down1.png) !important;
+ }
+ .accordion-button:not(.collapsed)::after {
+    background-image: url(../../assets/drop_down1.png) !important;
+ }
+ 
+ .button{
+    margin: 14px 0px !important;
+ }
+/********************************** FAQ's End *********************************/
+
+
+@media only screen and (max-width: 480px) {
+.faq2{
+    margin-left: 20px !important;
+    margin-right: -10px !important;
+    padding: 0px 20px;
+}
+
+}
