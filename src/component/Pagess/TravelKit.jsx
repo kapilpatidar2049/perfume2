@@ -197,16 +197,16 @@ const TravelKit = () => {
               <div className="slider_kit">
                 <Slider2 {...settings1} className="mt-5">
                   <div>
-                    <img src={img1} className="img_slider1" />
+                    <img src={img1} alt="img" className="img_slider1" />
                   </div>
                   <div>
-                    <img src={img22} className="img_slider1" />
+                    <img src={img22} alt="img" className="img_slider1" />
                   </div>
                   <div>
-                    <img src={img33} className="img_slider1" />
+                    <img src={img33} alt="img" className="img_slider1" />
                   </div>
                   <div>
-                    <img src={img4} className="img_slider1" />
+                    <img src={img4} alt="img" className="img_slider1" />
                   </div>
                 </Slider2>
               </div>

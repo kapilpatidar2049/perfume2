@@ -14,6 +14,7 @@ const HelpContact = () => {
     phone_no: "",
     comment: "",
   });
+  
   const [formErrors, setFormErrors] = useState({});
 
   const handleInputChange = (event) => {

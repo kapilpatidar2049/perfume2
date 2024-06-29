@@ -25,9 +25,9 @@ const Sidebar = ({ isOpen, onClose }) => {
           <li>Create perfume</li>
         </Link>
         <li className="nav-item dropdown list_page1">
-          <a className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link  className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             All collection
-          </a>
+          </Link>
           <ul className="dropdown-menu drop_Menu menu2" aria-labelledby="navbarDarkDropdownMenuLink1">
             <Link to='/HimPage' className='drop_li' onClick={onClose}>
               <li>For Him</li>
@@ -41,9 +41,9 @@ const Sidebar = ({ isOpen, onClose }) => {
           </ul>
         </li>
         <li className="nav-item dropdown list_page2">
-          <a className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link   className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Our kits
-          </a>
+          </Link>
        <ul className="dropdown-menu drop_Menu" aria-labelledby="navbarDarkDropdownMenuLink2">
             <Link to='/TravelKit' className='drop_li' onClick={onClose}>
               <li>Travel kit</li>
