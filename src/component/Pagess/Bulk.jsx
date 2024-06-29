@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState} from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../Css/Bulk.css';
 import banner_bulk_image from '../../assets/banner_bulk.png';

@@ -35,6 +35,7 @@ const Footer = ({ }) => {
             <Link to='/HimAndHerKit' className='linkss'><li> Him & Her Kit </li></Link>
             <Link to='/FamilyKit' className='linkss'><li> Family Kit </li></Link>
             <Link to='/KidsKit' className='linkss'><li> Kids Kit </li></Link>
+            <Link to='/ExploreKit' className='linkss'><li> Explorer Kit </li></Link>
             <Link to='/' className='linkss'><li> DIY Kit </li></Link>
             </ul>
           </div>
@@ -46,7 +47,7 @@ const Footer = ({ }) => {
             <Link to='/HimPage' className='linkss'><li> For Him </li></Link>
             <Link to='/HerPage' className='linkss'><li> For Her </li></Link>
             <Link to='/KidsPage' className='linkss'><li> For Kids</li></Link>
-            <Link to='/ExploreKit' className='linkss'><li> Explorer Kit </li></Link>
+           
             <Link to='/GiftPerfume' className='linkss'><li> Gifting </li></Link>
             </ul>
           </div>
