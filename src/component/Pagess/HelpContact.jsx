@@ -98,11 +98,6 @@ const HelpContact = () => {
       }
     }
   };
-
-
-
-
-
   const handleSubmit = (event) => {
     event.preventDefault();
     if (validateForm()) {
@@ -114,6 +109,8 @@ const HelpContact = () => {
     }
   };
 
+
+  
   return (
     <>
       <div className="container">

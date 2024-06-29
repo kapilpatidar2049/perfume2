@@ -60,7 +60,7 @@ const Bulk = () => {
     const isValid = validateForm();
     if (isValid) {
       try {
-        const response = await axios.post("http://192.168.0.101:2000/api/bulks-page", formDataa, {
+        const response = await axios.post("http://192.168.0.107:2000/api/bulks-page", formDataa, {
           headers: {
             "Content-Type": "application/json",
           },

@@ -23,7 +23,7 @@ const HerPage = () => {
    useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://192.168.0.101:2000/her_page',);
+        const response = await axios.get('http://192.168.0.107:2000/her_page',);
         console.log(response.data.data.Sec3_slider, 'Sec3 res');
         console.log(response.data.data.Sec4_slider, 'Sec4 res');
         console.log(response.data.data.Sec5_slider, 'Sec5 res');

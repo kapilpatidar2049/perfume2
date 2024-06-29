@@ -1,8 +1,5 @@
-import React, { useRef, useEffect, useState } from 'react'
+import React, {useEffect, useState } from 'react'
 import "../Css/Style.css";
-import image from '../../assets/shippingImg.png';
-import axios from 'axios';
-
 
 const ShipingPage = () => {
 // @@@@@@@@@@@@@@ Return and refund PAGE FETCH APIS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -15,7 +12,7 @@ const [bgImg, setBgImg] = useState('');
 useEffect(() => {
     const fetchData = async () => {
         try {
-            const response = await fetch('http://192.168.0.101:2000/api/return-and-refund-multiple/');
+            const response = await fetch('http://192.168.0.107:2000/api/return-and-refund-multiple/');
             const result = await response.json();
             console.log('API response:', result.shippingNew);  // Debug: Log API response
             if (result.status === 'success' && Array.isArray(result.shippingNew)) {

@@ -17,7 +17,7 @@ const Forgot_pass = () => {
             return;
           } 
         try {
-          const response = await axios.post("http://192.168.0.105:2000/forgot-password", { email });
+          const response = await axios.post("http://192.168.0.107:2000/forgot-password", { email });
     
           if (response.status !== 200) {
             throw new Error("Failed to send reset link");

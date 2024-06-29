@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from "react";
-import { useNavigate } from "react-router-dom";
 import { InputGroup, FormControl, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
@@ -13,14 +12,11 @@ import img33 from "../../assets/slider_img3.jpg";
 import img2 from "../../assets/frag_img2.png";
 import img3 from "../../assets/frag_img3.png";
 import img4 from "../../assets/slider_img4.jpg";
-import img_scent1 from "../../assets/travel_kit_img1.jpg";
-import img_scent2 from "../../assets/travel_kit_img1.jpg";
-import secnt_graph from "../../assets/graph2.png";
 import TravelKit_video from "../../video/video.mp4";
 import TravelKit_video2 from "../../video/Lavender.mp4";
 import sldr_img from "../../assets/slider_img4.jpg";
 import review_img from "../../assets/avatar.png";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis,  CartesianGrid, Tooltip } from 'recharts';
 import FAQ from "./FAQ";
 
 

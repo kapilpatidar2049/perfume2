@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from "react";
-import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Slider2 from "react-slick";
 import Slider from "react-slick";
@@ -9,18 +8,15 @@ import Sldr_img2 from "../../assets/sliderKit2.png";
 import Sldr_img3 from "../../assets/sliderKit1.png";
 import Sldr_img4 from "../../assets/slider_img4.jpg";
 import img1 from "../../assets/frag_img1.png";
-// import productImg1 from "../../assets/productImg1.jpg";
 import img2 from "../../assets/frag_img2.png";
 import img3 from "../../assets/frag_img3.png";
-import img_scent1 from "../../assets/travel_kit_img1.jpg";
-import img_scent2 from "../../assets/travel_kit_img1.jpg";
-// import secnt_graph from "../../assets/graph2.png";
+
 import TravelKit_video from "../../video/video.mp4";
 import TravelKit_video2 from "../../video/Lavender.mp4";
 import sldr_img from "../../assets/slider_img4.jpg";
 import review_img from "../../assets/avatar1.png";
 import review_img1 from "../../assets/avatar.png";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, CartesianGrid, Tooltip } from 'recharts';
 import FAQ from "./FAQ";
 import offer from "../../assets/discount.png";
 
@@ -113,41 +109,9 @@ const ProductPage = () => {
         setClickedDiv(id);
     };
 
-    const [selectedImage1, setSelectedImage1] = useState(null);
-    const [selectedImage2, setSelectedImage2] = useState(null);
-    const [isOpen1, setIsOpen1] = useState(false);
-    const [isOpen2, setIsOpen2] = useState(false);
 
-    const Select_scent1 = () => {
-        setIsOpen1(true);
-    };
 
-    const Select_scent2 = () => {
-        setIsOpen2(true);
-    };
-
-    const clearImage1 = () => {
-        setSelectedImage1(null);
-    };
-
-    const clearImage2 = () => {
-        setSelectedImage2(null);
-    };
-
-    const handleClick1 = (img) => {
-        setSelectedImage1(img);
-        setIsOpen1(false); // Close sidebar after selecting an image
-    };
-
-    const handleClick2 = (img) => {
-        setSelectedImage2(img);
-        setIsOpen2(false); // Close sidebar after selecting an image
-    };
-    // ADd to cart
-    // const navigate = useNavigate();
-    // const handleAddToCart = () => {
-    //   navigate(`/addToCart?selectedImage=${encodeURIComponent(selectedImage)}`);
-    // };
+       
     const [counts, setCounts] = useState({ item: 1 });
     const updateCount = (item, action) => {
         setCounts((prevCounts) => {

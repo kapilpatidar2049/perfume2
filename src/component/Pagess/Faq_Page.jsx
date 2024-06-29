@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "../Css/Style.css";
 import image from '../../assets/faqImg.webp'
-
 import '../Css/FAQ.css'
 import FAQ from './FAQ';
 import axios from 'axios';
@@ -9,12 +8,12 @@ import axios from 'axios';
 const Faq_Page = () => {
     const [data, setData] = useState(null);
   
-   // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ FAQ PAGE FETCH APIS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+   //  FAQ PAGE FETCH APIS @@@@@@@@@@@@@
 
    useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://192.168.0.101:2000/api/faq-page',);
+        const response = await axios.get('http://192.168.0.107:2000/api/faq-page',);
 
         setData(response.data.data);
         console.log(response.data.data);
@@ -44,7 +43,7 @@ const Faq_Page = () => {
                 {data && data.sec2_img1 ? (
                     <img src={data.sec2_img1}  alt="Dynamic"  width="48" height="48" className='mb-4'/>
                   ) : (
-                    <p>Image not available</p> // Fallback content if the image is not available
+                    <p>Image not available</p> 
                   )}
                 <div >
                         <h5 className='mb-3 mt-3 faqHeadSamll'>{data && data.sec2_heading2 ? data.sec2_heading2 : ''}</h5>
@@ -55,7 +54,7 @@ const Faq_Page = () => {
                 {data && data.sec2_img2 ? (
                     <img src={data.sec2_img2}  alt="Dynamic"  width="48" height="48" className='mb-4'/>
                   ) : (
-                    <p>Image not available</p> // Fallback content if the image is not available
+                    <p>Image not available</p> 
                   )}
                     <div>
                         <h5 className='mb-3 mt-3 faqHeadSamll'>{data && data.sec2_heading1 ? data.sec2_heading1 : ''}</h5>

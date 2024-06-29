@@ -2,10 +2,8 @@ import React, { useRef, useEffect, useState } from "react";
 import "../Css/Blogs.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import purefume_logo from "../../assets/logowhitenew.png";
 import blog_img1 from "../../assets/insta4.jpg";
 import blog_img2 from "../../assets/insta3.jpg";
-// import tips from "../../assets/girl_banner2.jpg";
 import blog_img3 from "../../assets/insta3.jpg";
 import home_video from "../../video/video.mp4";
 import tips_video1 from "../../video/whyvideos3.mp4";
@@ -49,19 +47,15 @@ const Blogs = () => {
     var secondSectionHeight = secondSection.offsetHeight;
     var scrollPosition = window.scrollY || window.pageYOffset;
     var firstSectionHeight = firstSection.offsetHeight;
-    var footerOffset = footer.offsetTop; // Get the offset top position of the footer
+    var footerOffset = footer.offsetTop;
     var stickyThreshold = 200;
     console.log(footerOffset);
     console.log(secondSectionHeight);
 
     // Check if we have scrolled past the first section but not reached the footer
     if (scrollPosition >= firstSectionHeight - stickyThreshold && scrollPosition < footerOffset-500) {
-        // First section is fully scrolled and not yet at footer
-        secondSection.classList.add("sticky");
-
-
+         secondSection.classList.add("sticky");
     } else {
-        // First section is not fully scrolled or footer is reached
         secondSection.classList.remove("sticky");
     }
 });
@@ -81,13 +75,13 @@ function adjustStickySectionHeight() {
   return (
     <>
       <div className="container mt-0 about_container">
-        {/****************************** Heading *****************************/}
+        {/****** Heading ************/}
         {/*  <div className="blog_heading">
                      <img src={purefume_logo} />
                 </div> */}
-        {/*************************** Heading End ***************************/}
+        {/************ Heading End ************/}
 
-        {/************************** Highlight ***************************/}
+        {/********* Highlight ***********/}
         
           <div className="highlight_heading mt-5 text-center">
             <h1>HIGHLIGHT OF THE MONTH</h1>
@@ -192,9 +186,9 @@ function adjustStickySectionHeight() {
               </button>
             </div>
           </div>
-          {/************************** Highlight End ****************************/}
+          {/******** Highlight End **************/}
 
-          {/************************** Trending product **************************/}
+          {/*********** Trending product ********/}
           <div className="trending_product">
             <h1>TRENDING PRODUCT</h1>
           </div>
@@ -306,9 +300,9 @@ function adjustStickySectionHeight() {
             </button>
           </div>
 
-          {/************************** Trending product End ***********************/}
+          {/******* Trending product End *******/}
 
-          {/************************** Tips and tricks ***********************/}
+          {/******** Tips and tricks *******/}
           <div  className="row tips" id="first-section">
             <div  className="col-lg-8" >
               <h1>TRENDING TIPS AND TRICKS</h1>
@@ -520,7 +514,7 @@ function adjustStickySectionHeight() {
           </div>
           </div>
           
-          {/************************ Tips and tricks End *********************/}
+          {/******** Tips and tricks End *********/}
       </div>
     </>
   );

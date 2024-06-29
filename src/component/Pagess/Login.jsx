@@ -41,13 +41,13 @@ const Login = () => {
     setShowPassword(!showPassword);
   };
 
-  const handleLogout = () => {
-    setIsLoggedIn(false);
-    setUserName("");
-    localStorage.removeItem("token");
-    navigate("/login");
-    localStorage.removeItem("f_name");
-  };
+  // const handleLogout = () => {
+  //   setIsLoggedIn(false);
+  //   setUserName("");
+  //   localStorage.removeItem("token");
+  //   navigate("/login");
+  //   localStorage.removeItem("f_name");
+  // };
   const validateEmail = (email) => {
     const re = /\S+@\S+\.\S+/;
     return re.test(email);
@@ -55,8 +55,8 @@ const Login = () => {
 
   const loginValidateForm = () => {
     const errors = {};
-    const isEmailValid = validateEmail(loginFormData.email);
-    const isPasswordValid = loginFormData.password.trim().length >= 6;
+    // const isEmailValid = validateEmail(loginFormData.email);
+    // const isPasswordValid = loginFormData.password.trim().length >= 6;
 
     if (!loginFormData.email.trim()) {
       errors.email = "Email is required";
@@ -93,7 +93,7 @@ const Login = () => {
     }
 
     try {
-      const response = await fetch("http://192.168.0.105:2000/login", {
+      const response = await fetch("http://192.168.0.107:2000/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

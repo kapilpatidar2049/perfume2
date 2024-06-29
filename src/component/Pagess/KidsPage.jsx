@@ -27,7 +27,7 @@ const Kids = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://192.168.0.101:2000/kids_page',);
+        const response = await axios.get('http://192.168.0.107:2000/kids_page',);
 
         console.log(response.data.data.Sec2_slider[0].sliders, 'res');
         console.log(response.data.data.Sec4_slider[0].sliders, 'Sec4 res');

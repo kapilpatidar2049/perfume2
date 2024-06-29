@@ -1,9 +1,8 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import '../Css/Quize.css';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Slider from '@mui/material/Slider';
-import matter_img1 from '../../assets/prfm.png';
 import matter_img2 from '../../assets/pure1.jpg';
 import m1 from '../../assets/prfm1.png';
 import m2 from '../../assets/registor1.jpg';
@@ -18,7 +17,7 @@ const Quizes = () => {
     const [currentStep, setCurrentStep] = useState(1);
     const [isSubmitted, setIsSubmitted] = useState(false);
     const steps = 10; // Total number of steps in the form
-    const personalitySectionRef = useRef(null); // Ref for the personality section
+    // const personalitySectionRef = useRef(null); // Ref for the personality section
     // const currentStep = 5; 
 
     const nextStep = () => {
@@ -54,11 +53,11 @@ const Quizes = () => {
     };
 
 
-    const scrollToPersonalitySection = () => {
-        if (personalitySectionRef.current) {
-            personalitySectionRef.current.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
+    // const scrollToPersonalitySection = () => {
+    //     if (personalitySectionRef.current) {
+    //         personalitySectionRef.current.scrollIntoView({ behavior: 'smooth' });
+    //     }
+    // };
 
     return (
         <div className="container">

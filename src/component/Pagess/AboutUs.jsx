@@ -16,7 +16,7 @@ const AboutUs = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://192.168.0.101:2000/api/about-page"
+          "http://192.168.0.107:2000/api/about-page"
         );
 
         setData(response.data.data);
@@ -35,7 +35,7 @@ const AboutUs = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://192.168.0.101:2000/api/about-slider-section4/"
+          "http://192.168.0.107:2000/api/about-slider-section4/"
         );
         console.log(response, "Full response sec 5");
 
@@ -61,7 +61,7 @@ const AboutUs = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://192.168.0.101:2000/api/about-slider-section6"
+          "http://192.168.0.107:2000/api/about-slider-section6"
         );
         console.log(response, "Full response sec 5");
 
@@ -80,10 +80,7 @@ const AboutUs = () => {
     fetchData();
   }, []);
 
-  const purefume_logo = {
-    backgroundImage:
-      data && data.image_logo ? `url(${data.image_logo})` : "none",
-  };
+  
   const about_banner_img = {
     backgroundImage:
       data && data.image_logo ? `url(${data.image_logo})` : "none",
@@ -466,7 +463,7 @@ const AboutUs = () => {
             </button>
           </div>
         </div>
-        {/******************************** join our team end *******************************/}
+        {/******************* join our team end *******************************/}
       </div>
     </>
   );

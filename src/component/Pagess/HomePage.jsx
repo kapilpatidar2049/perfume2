@@ -5,7 +5,6 @@ import '../Css/HomePage.css'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
-import home_video from '../../video/video.mp4'
 import instaimg1 from '../../assets/insta1.png'
 import instaimg4 from '../../assets/insta2.png'
 import instaimg3 from '../../assets/insta3.png'
@@ -14,11 +13,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import FAQ from './FAQ';
 
-
-
 const HomePage = () => {
   const [data, setData] = useState(null);
-  const [dataSlider, setDataSLlider] = useState([]);
   const [sliderSec2, setSliderSec2] = useState([]);
   const [sliderSec8, setSliderSec8] = useState([]);
   const [sliderSec5, setSliderSec5] = useState([]);
@@ -28,7 +24,7 @@ const HomePage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://192.168.0.101:2000/home-page-main');
+        const response = await axios.get('http://192.168.0.107:2000/home-page-main');
         setData(response.data.data);  
       } catch (err) {
         console.log(err, 'Server Error');
@@ -38,11 +34,11 @@ const HomePage = () => {
   }, []);
   // for home page content
 
-// for home page first slider
+  // for home page first slider
   useEffect(() => {
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://192.168.0.101:2000/home-slider-first');
+      const response = await axios.get('http://192.168.0.107:2000/home-slider-first');
         if (response.data && Array.isArray(response.data.data)) {
         const sec2Slider = response.data.data;
          setSliderSec2(sec2Slider);
@@ -53,16 +49,15 @@ const HomePage = () => {
         console.log(err, 'Server Error');
       }
   };
-
   fetchData();
   }, []);
-// for home page first slider
+  // for home page first slider
 
   // for home page fifth slider
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://192.168.0.101:2000/api/home-slider-section5');
+        const response = await axios.get('http://192.168.0.107:2000/api/home-slider-section5');
         console.log(response, 'Full response sec 5');
 
         if (response.data && Array.isArray(response.data.data)) {
@@ -86,7 +81,7 @@ const HomePage = () => {
 useEffect(() => {
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://192.168.0.101:2000/api/home-slider-one-sliders');
+      const response = await axios.get('http://192.168.0.107:2000/api/home-slider-one-sliders');
       setSliderSec8(response.data.data);  
       if (response.data && Array.isArray(response.data.data)) {
         const slider_ = response.data.data;
@@ -109,7 +104,7 @@ useEffect(() => {
 useEffect(() => {
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://192.168.0.101:2000/api/home-slider-section10');
+      const response = await axios.get('http://192.168.0.107:2000/api/home-slider-section10');
            if (response.data && Array.isArray(response.data.data)) {
         const sec10Slider = response.data.data;
         console.log(sec10Slider, 'res, section 10');
@@ -500,7 +495,7 @@ return (
       <div className="container">
           <div className="popup_section row">
           {sliderSec8.map((slide, index) => (
-              <div className="popup_sec_1 col-lg-4 col-md-4" key={index} className={`popup_sec_${index + 1} col-lg-4 col-md-4`}>
+              <div  key={index} className={`popup_sec_${index + 1} popup_sec_1 col-lg-4 col-md-4`}>
               {slide.sec8_img ? (
               <img src={slide.sec8_img} style={index === 0 ? popup_img : index === 1 ? popup_img1 : popup_img2} alt="Dynamic" />
             ) : (

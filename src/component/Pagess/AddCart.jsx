@@ -28,9 +28,7 @@ const Addcart = () => {
     item1: 1,
     item2: 1,
     item3: 1,
-    item4: 1,
-    // Add more items as needed
-  });
+    item4: 1,  });
 
   const updateCount = (itemId, action) => {
     setCounts(prevCounts => {
@@ -123,7 +121,7 @@ const Addcart = () => {
                   <p className="mt-2 hover-txt">Totals</p>
                   <p className="mt-2 hover-txt">₹ 5550</p>
                 </div>
-                {/*<p className="mt-4">Points earned</p>*/}
+              
                 <div class="check-btn mt-2">
                   <button type="button" class="checkout-btn btn-outline-secondary">
                     Checkout

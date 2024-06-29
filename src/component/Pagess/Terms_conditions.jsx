@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import "../Css/Style.css";
-import axios from 'axios';
 
 const TermsConditions = () => {
 
@@ -13,7 +12,7 @@ const TermsConditions = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://192.168.0.101:2000/api/return-and-refund-multiple/');
+        const response = await fetch('http://192.168.0.107:2000/api/return-and-refund-multiple/');
         const result = await response.json();
         console.log('API response:', result.createNew);  // Debug: Log API response
         if (result.status === 'success' && Array.isArray(result.createNew)) {

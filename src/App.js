@@ -33,10 +33,7 @@ import Bulk from "./component/Pagess/Bulk";
 import Quizes from "./component/Pagess/Quize";
 import DiscoveryKits from "./component/Pagess/DiscoveryKits";
 import ProductPage from "./component/Pagess/ProductPage";
-// import GiftPerfume from "./component/Pagess/GiftPerfume";
-// import GiftCard from "./component/Pagess/GiftCard";
-// import GiftPerfumeOld from "./component/Pagess/GiftPerfumeOld";
-// import Gift_Personalised_Perfume from "./component/Pagess/Gift_Personalised_Perfume";
+
 
 
 function App() {  
@@ -78,9 +75,7 @@ function App() {
           <Route path="/Quizes" element={<Quizes />} />
           <Route path="/discovery" element={<DiscoveryKits />} />
           <Route path="/Product" element={<ProductPage />} />
-          {/** <Route path="/Gift" element={<GiftPerfume />} />
-          <Route path="/GiftCards" element={<GiftCard />} />
-          <Route path="/GiftPersonal" element={<Gift_Personalised_Perfume />} /> */}    
+        
         </Routes>
   
       <div className="container">

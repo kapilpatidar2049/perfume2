@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Css/Signup.css";
-import { Link, useNavigate, useHistory } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import google from "../../assets/google.png";
 import facebook from "../../assets/facebook1.png";
 import axios from "axios";
@@ -81,7 +81,7 @@ const Signup = () => {
     const isValid = validateForm();
     if (isValid) {
       try {
-        const response = await axios.post("http://192.168.0.105:2000/api/signup/", formData, {
+        const response = await axios.post("http://192.168.0.107:2000/api/signup/", formData, {
           headers: {
             "Content-Type": "application/json",
           },
@@ -132,13 +132,13 @@ const Signup = () => {
             </p>
             <div className="mt-3">
               <button className="google-btn">
-                <img src={google} className="google" />
+                <img src={google} alt="google" className="google" />
                 Continue With GOOGLE
               </button>
             </div>
             <div>
               <button className="facebook-btn">
-                <img src={facebook} className="facebook" />
+                <img src={facebook}  alt="facebook" className="facebook" />
                 Continue With FACEBOOK
               </button>
             </div>
